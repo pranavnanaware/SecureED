@@ -1,0 +1,285 @@
+/* Start standard page styling */
+header {
+  display: block;
+  background: linear-gradient(69deg, rgba(127,127,127,1) 0%, white, rgba(127,127,127,1) 100%);
+  width: 100%;
+  font-size: 5vh;
+  padding-top: 2vh;
+  margin: auto;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+}
+
+.subheader {
+  font-size: xxx-large;
+}
+
+main {
+  padding-top: 18px; /*Replaces a br element*/
+}
+
+.button_large {
+  font-size: large;
+}
+
+.horizontal_line {
+  padding-bottom: 10px;
+}
+
+.header_lock {
+  position: relative;
+  float: left;
+}
+
+.header_background {
+  float: left;
+  display: inline;
+  width: 100%;
+}
+
+.header_table {
+  min-width:90%;
+}
+
+.header_table_cell {
+  min-width: 33%;
+}
+
+.lock{
+  max-width: 1vh;
+  text-align: left;
+  padding-left: 2vw;
+}
+
+.title {
+  min-width: 33%;
+  max-width: 33%;
+  text-align: center;
+  margin-left: -4vw;
+}
+
+
+.spacer{
+  display: inline-block;
+  padding-bottom: 18px;
+}
+
+#wrapper {
+  max-width: 150vh;
+  margin: auto;
+}
+/* End standard page styling */
+
+/* Start login page styling */
+.login {
+  font-size: x-large;
+  text-align:right;
+  display: inline-block;
+}
+/* End login page styling */
+
+/* Start dashboard page styling */
+.dashboard {
+  font-size: x-large;
+  text-align:right;
+  display: inline-block;
+}
+/* End dashboard page styling */
+
+/* Start user search page styling */
+.search_pane { /* also used for course search */
+  background-color: whitesmoke;
+  text-align: left;
+  width: fit-content;
+  padding:2vw;
+  padding-top: 1vw;
+  margin-bottom: 72px;
+}
+
+.search_filter {
+  text-align: right;
+  padding-left: 2vw;
+  font-size: x-large;
+}
+
+.search_results {
+  background-color: whitesmoke;
+  text-align: left;
+  padding:2vw;
+  padding-top: 1vw;
+}
+
+#results span{
+  table-layout: fixed;
+  width:100%;
+  display:block;
+}
+
+#results span:nth-child(even){
+  background-color: lightgrey;
+}
+
+.search_table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.search_table td:nth-of-type(1) {width:10vw;}/*Setting the width of column 1.*/
+.search_table td:nth-of-type(2) {width:7.5vw;}/*Setting the width of column 2.*/
+.search_table td:nth-of-type(3) {width:11vw;}/*Setting the width of column 3.*/
+.search_table td:nth-of-type(4) {width:10vw;}/*Setting the width of column 4.*/
+.search_table td:nth-of-type(5) {width:50px;}/*Setting the width of column 5.*/
+
+.search_results_column_name {
+  text-align: center;
+  margin: 2vw;
+  font-size: x-large;
+  overflow: hidden;
+  padding: 2vw;
+}
+
+.search_results_output {
+  text-align: center;
+  margin: 2vw;
+  padding: 2vw;
+  font-size: large;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.search_filter_input {
+  text-align: left;
+  font-size: x-large;
+}
+/* End user search page styling */
+
+/* Begin course search page styling */
+.course_search_results {
+  background-color: whitesmoke;
+  text-align: left;
+  padding:2vw;
+  padding-top: 1vw;
+}
+
+.course_search_table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.course_search_table td:nth-of-type(1) {width:10vw;}/*Setting the width of column 1.*/
+.course_search_table td:nth-of-type(2) {width:8vw;}/*Setting the width of column 2.*/
+.course_search_table td:nth-of-type(3) {width:13vw;}/*Setting the width of column 3.*/
+.course_search_table td:nth-of-type(4) {width:11vw;}/*Setting the width of column 4.*/
+.course_search_table td:nth-of-type(5) {width:8vw;}/*Setting the width of column 5.*/
+.course_search_table td:nth-of-type(6) {width:75px;}/*Setting the width of column 6.*/
+
+.course_search_results_column_name {
+  text-align: center;
+  margin: 2vw;
+  font-size: x-large;
+  overflow: hidden;
+  padding: 0.5vw;
+}
+
+.course_search_results_output {
+  text-align: center;
+  margin: 2vw;
+  font-size: large;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0.5vw;
+}
+/* End course search page styling */
+
+/* Start course enroll page styling */
+.course_enroll_table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.course_enroll_table td:nth-of-type(1) {width:10vw;}/*Setting the width of column 1.*/
+.course_enroll_table td:nth-of-type(2) {width:6vw;}/*Setting the width of column 2.*/
+.course_enroll_table td:nth-of-type(3) {width:13vw;}/*Setting the width of column 3.*/
+.course_enroll_table td:nth-of-type(4) {width:11vw;}/*Setting the width of column 4.*/
+.course_enroll_table td:nth-of-type(5) {width:8vw;}/*Setting the width of column 5.*/
+.course_enroll_table td:nth-of-type(6) {width:75px;}/*Setting the width of column 6.*/
+
+.course_enroll_column_name {
+  text-align: center;
+  margin: 2vw;
+  font-size: x-large;
+  overflow: hidden;
+  padding: 0.5vw;
+}
+
+.course_enroll_results {
+  background-color: whitesmoke;
+  text-align: left;
+  padding:2vw;
+  padding-top: 1vw;
+}
+
+.course_enroll_results form:nth-child(odd){
+  background-color: lightgrey;
+}
+
+.enroll_output {
+  text-align: center;
+  margin: 1.5vw;
+  font-size: large;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0.5vw;
+}
+/* End course enroll page styling */
+
+/* Start edit account page styling */
+.edit_acc_pane { /* also used for create account */
+  background-color: whitesmoke;
+  text-align: left;
+  width: fit-content;
+  padding:2vw;
+  padding-top: 1vw;
+  margin-bottom: 18px;
+}
+
+.edit_acc_label{
+  text-align: right;
+  padding-left: 2vw;
+  font-size: x-large;
+}
+/* End edit account page styling */
+
+/* Start forgot password page styling */
+#ForgotPasswordContent #submit {
+  display: inline;
+  margin-top: 18px;
+}
+
+.NewPassword table{
+  border-spacing: 15px;
+  margin: 0 auto;
+}
+
+.SecurityQuestion label{
+  padding-left: 15px;
+}
+/* End forgot password page styling */
+
+/* Start enter grades page styling */
+.enter_grades_input #crn{
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+
+.enter_grades_input #file{
+  margin-bottom: 35px;
+  display: block;
+}
+/* End enter grades page styling */

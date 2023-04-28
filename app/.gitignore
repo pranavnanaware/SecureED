@@ -1,0 +1,13 @@
+
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/sqldialects.xml
+.idea/php.xml
+.idea/modules.xml
+.idea/ISWA.iml
+*.tmp
+db/persistentconndb.sqlite
+db/persistentconndb.sqlite
+resources/tmp.txt
+db/persistentconndb.sqlite
+resources/tmp.txt
